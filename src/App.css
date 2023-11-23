@@ -1,0 +1,38 @@
+.header{
+/*     position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999; */
+    padding: 1rem;
+    width: 100%;
+    height: 7rem;
+    background-color: white;
+}
+
+
+main{
+  min-height: calc(100vh - 9rem);
+  background-color: rgba(0, 0, 0, 0.042);
+}
+
+.footer{
+      width: 100%;
+      height: 2rem;
+      background-color: black;
+  }
+  
+
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 1024px){
+   .header{
+    position: sticky;
+    top: 0;
+    padding: 0.5rem;
+    height: calc(7rem - 0.5rem);
+   }
+}
+

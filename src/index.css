@@ -1,0 +1,75 @@
+/* Custom Properties */
+
+
+/* Reset */
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *,
+  *::after,
+  *::before{
+    box-sizing: inherit;
+  }
+  
+  body{
+    margin: 0;
+    overflow-x: hidden;
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1400 - 300)));    
+    font-family: 'Bad Script', cursive;
+    letter-spacing: 0.1rem;
+  }
+
+  a:hover {
+    opacity: 0.75;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  h5 {
+    margin: 0;
+    font-size: 0.85rem;
+  }
+  
+  h6 {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  
+  
+  
+  /* Componentes */
+  
+  /* Utilities */
+  
+  /* Sit Style */

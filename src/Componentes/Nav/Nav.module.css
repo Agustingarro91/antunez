@@ -1,0 +1,112 @@
+.container {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1200px;
+   height: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.menuBtn {
+   position: fixed;
+   right: 1;
+   bottom: 20px;
+   z-index: 999;
+   outline: thin solid;
+   border: 0;
+   border-radius: 50%;
+   cursor: pointer;
+   width: 50px;
+   height: 50px;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.menu {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding-bottom: 5rem;
+   display: flex;
+   flex-direction: column;
+   background-color: rgba(19, 17, 17, 0.712);
+   opacity: 0;
+   pointer-events: none;
+   transition: opacity 0.5s ease;
+}
+
+.menuActive {
+   opacity: 1;
+   pointer-events: auto;
+}
+
+.menu a {
+   padding: 1rem;
+   font-size: 1.5rem;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   color: whitesmoke;
+   font-size: 1rem;
+}
+
+.menu a:hover {
+   color: aqua;
+   background-color: brown;
+}
+
+.none {
+   display: none;
+}
+
+.image {
+   display: flex;
+   width: 100px;
+   height: 100px;
+   background-color: white;
+   border-radius: 50%;
+   background-image: url('/assets/antunezej.svg');
+   background-size: contain;
+   background-repeat: no-repeat;
+
+}
+
+/*  @media screen and (min-width: 768){
+
+ }
+
+ @media screen and (min-width: 1024){
+    
+ } */
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {
+   .menuBtn {
+      display: none;
+   }
+
+   .menu {
+      position: static;
+      width: auto;
+      background-color:  white;
+      flex-direction: row;
+      padding-bottom: 0;
+      opacity: 1;
+      pointer-events: auto;
+   }
+
+
+   .menu a {
+      padding: 0.5rem;
+      color: black;
+      font-size: 1.4rem;
+      
+   }
+}
